@@ -1,0 +1,24 @@
+Curso FrontEnd Developer
+
+Documentación y referencias:
+    - Nos muestra todos los elementos que puede tener html: https://htmlreference.io/
+    - Nos muestra todos los elementos que puede terner css: https://cssreference.io/
+   
+Proceso de renderización 3 conceptos importantes:
+    - DOM Documento Object Model: 
+        Transforma etiquetas y los transforma en objetos entendibles al navegador
+    - CSSOM: representación de objetos de css, los convierte en objetos entendibles
+    - Render Tree: arbol de DOM y CSSOM para trabajar en conjunto
+
+Navegador 5 pasos fundamentales para realizar la transformación DOM:
+    - Bytes
+    - Characters
+    - Tokens
+    - Nodes (TAGS/ELEMENTOS)
+    - DOM
+Pasos que hace el navegador:
+    - Procesa el HTML y contruye el DOM
+    - Procesa CSS y contruye el CSSOM
+    - DOM + CSSOM = Render Tree
+    - Ejecuta el diseño en el Render Tree
+    - Pinta el nodo en la pantalla
