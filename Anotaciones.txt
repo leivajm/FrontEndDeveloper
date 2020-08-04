@@ -22,3 +22,93 @@ Pasos que hace el navegador:
     - DOM + CSSOM = Render Tree
     - Ejecuta el diseño en el Render Tree
     - Pinta el nodo en la pantalla
+**Recomendación de repasos: 
+https://www.w3schools.com/tags/ref_byfunc.asp
+https://www.freecodecamp.org/
+
+Anatomía de HTML, anidamiento, atributos, anidamientos y elementos vacios:
+    - Anatomia = Elemento = Etiqueta de apertura + Elemento + Etiqueta de Cierre
+        Ejemplo: <h1> Hola </h1>
+    - Atributos: Etiqueta de apertura siempre tiene atributos, la de cierre no
+        Ejemplo <h1 class = "saludo">
+    - Anidamiento: Etiquetas dentro de otras
+    - Elementos vacios: Necesita atributos especiales
+
+Anatomia de un Documento HTML: Doctype, html, head, body
+Código semántico
+Validador de código html: https://validator.w3.org/
+Tipos de errores:
+    - Errores sintácticos: errores de escritura
+    - Errores lógicos: sintaxis correcta pero no la lógica
+
+Anatomía de una declaración de CSS: Selectores, propiedades y valores
+    - Tipos de selectores:
+        - Universial:   *{
+                            margin 0;
+                         }
+        - Tipo:         h1{
+                            color: red;
+                          }
+        - Clase:        .saludo{
+                            font-size: 2em;
+                        }
+        - ID:           #id{
+                            border-radius: 20px;
+                        }
+
+    - Pseudo-clases: Nos dan estilos especificos
+        p:firt-child{}
+        p:last-child{}
+        p:nth-child{}
+        Documentación: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+    - Tipos de pseudo-elementos:
+        Funcionan de manera similar a las pseudoclases, excepto que tienen :: antes
+        ::before
+        ::after
+        Documentación: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+    
+Modelo de caja, valores relativos y valores absolutos
+    - Recursos:
+        https://picular.co/Video
+        https://coolors.co/001514-fbfffe-6b0504-a3320b-e6af2e
+        colorhunt
+        https://coolors.co/5e1dfc-ab88ff-8f57fd-21c08b-e6af2e
+        https://www.w3schools.com/css/css3_transitions.asp
+        https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions
+        https://css-tricks.com/almanac/properties/t/transition/
+        https://www.w3schools.com/css/css3_animations.asp
+        https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+        https://css-tricks.com/almanac/properties/a/animation/
+        https://developer.mozilla.org/es/docs/Web/CSS/position
+
+Arquitectura CSS
+    - Objetivos: predecible, reutilizable, mantenimble, escalable.
+    - Buenas practivas:
+        - Establecer reglas
+        - Explicar la estructura base
+        - Establecer est+andares de codificación
+        - Evitar largas hojas de estilos
+        - Documentación
+    - Metodologias de CSS
+        - OOCSS: CSS Orientado a Objetos, separa diseño de contenido
+        - BEM: Blok Element Modify: separa bloques, elementos y modificadores
+        - SMACSS: Arquitectura de CSS Escalable y Modular
+        - ITCSS: Triangulo invertido de CSS, dividir los archivos de CSS en partes
+            para que no se combinen entre si
+        - Atomic Design: Átomos, Moléculas, Organismos, Templates, Páginas
+
+        **Especificidad: clases que tienen mayor peso que otros
+        * Recursos
+            https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/
+            http://getbem.com/introduction/
+            http://smacss.com/
+            https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+            http://bradfrost.com/blog/post/atomic-web-design/
+            https://iconos8.es/
+    
+Alinear elementos con flexbox
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
